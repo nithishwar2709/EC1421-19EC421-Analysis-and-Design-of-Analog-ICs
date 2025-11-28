@@ -1,52 +1,73 @@
 # EC1421-19EC421-Analysis-and-Design-of-Analog-ICs
-# DIFFERENTIATOR
+#  INSTRUMENTATION AMPLIFIER
 
-## AIM:
-To design and test the performance of differentiator circuits using Op-amp.
+## AIM: 
 
-## APPARATUS REQUIRED:
-<img width="984" height="273" alt="image" src="https://github.com/user-attachments/assets/2bfcbf8e-9b24-441c-a0c5-b04e0b1bee8d" />
+To construct and test the CMRR of an instrumentation amplifier using op-amp  
+IC741.
+ 
+## APPARATUS REQUIRED
 
-## THEORY:
-## DIFFEERENTIATOR:
-The differentiator circuit performs the mathematical operation of differentiation; that is, the output waveform is the derivative of the input waveform. The differentiator may be constructed from a basic inverting amplifier if an input resistor R1 is replaced by a capacitor C1 . The expression for the output voltage is given as,
+<img width="634" height="166" alt="image" src="https://github.com/user-attachments/assets/e7f51b72-b143-4728-9c65-6b9d447201cf" />
 
-Vo = - Rf C1 ( dVi /dt )
 
-Here the negative sign indicates that the output voltage is 180 0 out of phase with the input signal. A resistor Rcomp = Rf is normally connected to the non-inverting input terminal of the op-amp to compensate for the input bias current. A workable differentiator can be designed by implementing the following steps:
-1. Select fa equal to the highest frequency of the input signal to be differentiated. Then, assuming a value of C1 < 1 μF, calculate the value of Rf.
-2. Choose fb = 20 fa and calculate the values of R1 and Cf so that R1C1 = Rf Cf.
-The differentiator is most commonly used in wave shaping circuits to detect high frequency components in an input signal and also as a rate–of–change detector in FM modulators.
+## THEORY
+## INSTRUMENTATION AMPLIFIER
 
-## CIRCUIT DIAGRAM:
+An instrumentation amplifier is the intermediate stage of a instrumentation system. The 
+signal source of the instrumentation amplifier is the output of the transducer. Many 
+transducers output do not have the ability or sufficient strength to drive the next following 
+stages. Therefore, instrumentation amplifiers are used to amplify the low-level output signal of 
+the transducer so that it can drive the following stages such as indicator or displays. 
+ 
+The major requirements of a instrumentation amplifier are precise, low-level 
+signal amplification where low-noise, low thermal and time drifts, high input resistance & 
+accurate closed-loop gain, low power consumption, high CMRR & high slew rate for superior 
+performance. 
+ 
+ The output of Instumentation amplifier is given by 
+                                                         
+Vo = RF/R1[1+ 2R’/R][V2-V1] 
+## CIRCUIT DIAGRAM: 
 
-![WhatsApp Image 2025-11-14 at 11 28 17_ff10777c](https://github.com/user-attachments/assets/fd24ee53-7d60-4a4f-9151-7bb9530a3956)
+![WhatsApp Image 2025-11-14 at 11 35 49_b50ce347](https://github.com/user-attachments/assets/466c171c-8a37-4a8d-bbe8-0188a0eb1193)
 
 
 ## MODEL GRAPH:
 
-![WhatsApp Image 2025-11-14 at 11 28 14_d0f5957a](https://github.com/user-attachments/assets/ff9b5118-6830-4e6a-be83-6d733abeabbe)
+![WhatsApp Image 2025-11-14 at 11 35 49_7b411bf1](https://github.com/user-attachments/assets/7a352061-e662-4237-af9a-dc2e9cbfbf8f)
 
 
-## PROCEDURE:
-### Differentiator:
-1. Connections are given as per the circuit diagram
-2. + Vcc and - Vcc supply is given to the power supply terminal of the Op-Amp IC.
-3. By adjusting the amplitude and frequency knobs of the function generator, appropriate input voltage is applied to the inverting input terminal of the Op- Amp.
-4. The output voltage is obtained in the CRO and the input and output voltage waveforms are plotted in a graph sheet.
-   
-## DESIGN:
-<img width="837" height="443" alt="image" src="https://github.com/user-attachments/assets/fee44ef4-8ae5-4b7a-938e-927c4492992e" />
+## PROCEDURE:  
+1. Select the entire resistor with the same value. Let R be the gain varying resistor with 
+different values of resistance for simplicity let R be a constant value. 
+2. Connect the circuit as shown in the circuit diagram.  
+3. + Vcc and - Vcc supply is given to the power supply terminal of the Op-Amp IC. 
+4. Give the input V1 and V2 to the non-inverting terminals of first & second op-amp 
+respectively.  
+5. By varying the value of RG, measure the output voltage for common mode and 
+differential mode operation. Since RG is selected as constant value, provide different 
+input value of V1 and V2. 
+6. Check the theoretical value with the experimental value. 
+7. The output voltage is obtained in the Multimeter and the input and output voltage 
+waveforms are plotted in a graph sheet.
 
 ## TABULATION:
 
-![WhatsApp Image 2025-11-14 at 11 28 15_23afc1f8](https://github.com/user-attachments/assets/2043ed3b-5d64-4bbe-a430-3165750f03ef)
+![WhatsApp Image 2025-11-14 at 11 35 50_faad4b18](https://github.com/user-attachments/assets/749ab824-7be8-414c-ad42-aa042205b9e7)
+
+
+## CALCULATIONS:
+
+![WhatsApp Image 2025-11-14 at 11 35 49_dc53fb26](https://github.com/user-attachments/assets/7738e9dd-046f-4df1-8550-fe12bcfe43e1)
 
 
 ## GRAPH:
 
-![WhatsApp Image 2025-11-14 at 11 28 12_386ae69d](https://github.com/user-attachments/assets/da3e7467-7cb5-4c8d-8296-e43e7f7eeae3)
+![WhatsApp Image 2025-11-14 at 11 35 48_4fccc66f](https://github.com/user-attachments/assets/5cb79683-776f-408c-83f1-f2ae8dfe9f1c)
 
 
-## RESULT:
-Thus the Differentiator using op-amp are designed and their performance was successfully tested using op-amp IC 741.
+ ## RESULTS:
+ Thus an instrumentation amplifier was constructed and  tested using op
+amp IC 741. 
+ 
