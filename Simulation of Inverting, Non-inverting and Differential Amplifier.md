@@ -35,5 +35,12 @@ LT-Spice
 ### DIFFERENTIAL AMPLIFIER:
 <img width="1919" height="1042" alt="514703002-e290f3e1-ff43-4370-aeb8-2fe9ccbeeda9" src="https://github.com/user-attachments/assets/daa73dcc-1fe5-4685-8692-9fca7e91f1a9" />
 
+
+
+
+![WhatsApp Image 2025-11-29 at 10 51 22_cc275168](https://github.com/user-attachments/assets/464d04e4-165b-41c5-be9a-ec8edea332e8)
+
+![WhatsApp Image 2025-11-29 at 10 51 22_d58a13ac](https://github.com/user-attachments/assets/0b24a90e-faa0-4e1c-9c08-23c260aa75dd)
+
 ## RESULT:
 Thus the LT-SPICE tool has been studied and inverting, non- inverting and differential amplifiers circuit is simulated.
