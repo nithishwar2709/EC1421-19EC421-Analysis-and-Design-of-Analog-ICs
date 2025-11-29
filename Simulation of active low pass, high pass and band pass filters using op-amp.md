@@ -49,6 +49,11 @@ LT-Spice
 
 <img width="1915" height="1107" alt="image" src="https://github.com/user-attachments/assets/64cb6b3f-e771-400d-89ed-494155edabe1" />
 
+## Observation:
+![WhatsApp Image 2025-11-29 at 10 51 26_d269a5ca](https://github.com/user-attachments/assets/9b66d15c-4109-4e66-a53b-857890a53673)
+
+![WhatsApp Image 2025-11-29 at 10 51 27_d446c116](https://github.com/user-attachments/assets/cd0882b8-82d2-4538-8c57-c5d9259b649b)
+
 ## RESULT:
 Thus the LT-SPICE tool has been studied and active low pass filter, high pass and band pass filter is simulated.
 
