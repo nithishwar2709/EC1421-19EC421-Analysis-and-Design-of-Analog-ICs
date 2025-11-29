@@ -37,7 +37,7 @@ LT-Spice
 
 
 
-
+## Observation:
 ![WhatsApp Image 2025-11-29 at 10 51 22_cc275168](https://github.com/user-attachments/assets/464d04e4-165b-41c5-be9a-ec8edea332e8)
 
 ![WhatsApp Image 2025-11-29 at 10 51 22_d58a13ac](https://github.com/user-attachments/assets/0b24a90e-faa0-4e1c-9c08-23c260aa75dd)
